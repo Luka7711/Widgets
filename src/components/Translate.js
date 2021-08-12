@@ -21,9 +21,7 @@ const Translate = () => {
   const [language, setLanguage] = useState(options[0]);
   const [text, setText] = useState("");
 
-  useEffect(() => {
-    console.log(text, "text");
-  }, [text]);
+  useEffect(() => {}, [text]);
 
   return (
     <div>
